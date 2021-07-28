@@ -53,7 +53,9 @@ export default class MyDocument extends Document {
 					/>
 				</Head>
 				<body>
-					<Main />
+					<main>
+						<Main />
+					</main>
 					<NextScript />
 				</body>
 			</Html>
