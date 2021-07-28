@@ -65,7 +65,7 @@ function HomeTemplate() {
 				setSeconds('00');
 			}
 		};
-	}, [difference]);
+	}, [difference, startCountdown]);
 
 	return (
 		<Container>
@@ -79,7 +79,7 @@ function HomeTemplate() {
 					<Countdown title='SECONDS' value={seconds} />
 				</CountdownWrapper>
 			</div>
-			<ImageFooter src='./images/pattern-hills.svg' />
+			<ImageFooter src='./images/pattern-hills.svg' alt='pattern hills' />
 
 			<Footer>
 				<Social>
@@ -90,12 +90,12 @@ function HomeTemplate() {
 					</Link>
 					<Link href='/'>
 						<a>
-							<Image src={PinterestIcon} alt='facebook' />
+							<Image src={PinterestIcon} alt='pinterest' />
 						</a>
 					</Link>
 					<Link href='/'>
 						<a>
-							<Image src={InstagramIcon} alt='facebook' />
+							<Image src={InstagramIcon} alt='instagram' />
 						</a>
 					</Link>
 				</Social>

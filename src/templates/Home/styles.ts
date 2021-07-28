@@ -4,8 +4,9 @@ export const Container = styled.div`
 	width: 100%;
 	min-height: 100vh;
 	position: relative;
-	background: url('./images/bg-stars.svg') no-repeat 100%;
+	background: url('./images/bg-stars.svg') no-repeat;
 	background-position: center;
+	background-size: 100%;
 	background-color: var(--dark-blue);
 
 	display: flex;
@@ -60,7 +61,7 @@ export const Footer = styled.div`
 	margin-bottom: 2rem;
 
 	@media (min-width: 900px) {
-		margin-bottom: 5rem;
+		margin-bottom: 3rem;
 	}
 
 	p {
@@ -68,6 +69,7 @@ export const Footer = styled.div`
 		z-index: 2;
 		text-align: center;
 		margin: 0 1rem;
+		font-size: 0.875rem;
 
 		a {
 			color: var(--white);

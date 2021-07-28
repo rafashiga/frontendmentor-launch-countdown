@@ -57,10 +57,10 @@ export const Number = styled.div`
 	}
 
 	@media (min-width: 900px) {
-		font-size: 6rem;
+		font-size: 5rem;
 
-		width: 10rem;
-		height: 10rem;
+		width: 8.5rem;
+		height: 8.5rem;
 	}
 `;
 
@@ -72,7 +72,7 @@ export const NumberLine = styled.div`
 	opacity: 0.4;
 `;
 
-export const Title = styled.h3`
+export const Title = styled.div`
 	margin-top: 1rem;
 	letter-spacing: 6px;
 	color: var(--grayish-blue);
@@ -80,9 +80,5 @@ export const Title = styled.h3`
 
 	@media (min-width: 600px) {
 		font-size: 0.875rem;
-	}
-
-	@media (min-width: 768px) {
-		font-size: 1rem;
 	}
 `;
